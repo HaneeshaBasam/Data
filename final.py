@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Set your Cohere API key
-cohere_client = cohere.Client("szQ2OWamGao2coIRYMKrMAXBGc7ySVbkfbnjTatB")
+cohere_client = cohere.Client("your API key")
 
 # Load the dataset
 file_path = 'C:/Users/hanee/OneDrive/Desktop/datathon/Disease_symptom_and_patient_profile_dataset.csv'
